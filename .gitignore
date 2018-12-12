@@ -1,0 +1,11 @@
+/node_modules
+/npm-debug.log
+**/package-lock.json
+.vscode/launch.json
+.npmrc
+.idea/
+/.svn
+.vscode
+.vscode/launch.json
+.vscode/launch.json
+node_modules/
