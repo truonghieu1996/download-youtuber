@@ -12,6 +12,7 @@ app.get('/download', (req, res) => {
     let URL = req.query.URL
     res.header('Content-Disposition', 'attachment; filename="video.mp4"')
     ytdl(URL, {
-        format: 'mp4'
+        format: 'mp4',
+        quality: 'highestvideo'
     }).pipe(res)
 })
